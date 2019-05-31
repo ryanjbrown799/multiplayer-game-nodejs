@@ -5,9 +5,9 @@ by Ryan Brown
 INSTALL
 
 download files
-open terminal in root directory
-  npm install express
-  npm install socket.io
+open terminal in root directory  
+  npm install express  
+  npm install socket.io  
 
 To run 
 
