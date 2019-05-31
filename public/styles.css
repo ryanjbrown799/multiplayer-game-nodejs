@@ -1,5 +1,5 @@
 #displayCharas {
-    display: none;
+	display: none;
 	text-align: center;
 }
 #newUser{
@@ -106,8 +106,7 @@ canvas {
     margin: auto;
 	background: #eee;
 	display: none;
-
- }
+}
 
 
 
