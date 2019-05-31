@@ -1,0 +1,113 @@
+#displayCharas {
+    display: none;
+	text-align: center;
+}
+#newUser{
+	text-align: center;
+}
+
+#newUser input {
+	padding:10px;
+	
+}
+
+#newUser button {
+	padding:10px;
+	
+}
+
+#displayCharas th {
+
+    width: 150px;
+    height: 150px;
+    background: black;
+    margin-right: 5px;	
+}
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+form {
+
+	box-sizing: border-box;
+	background: #000;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+form input {  
+	box-sizing: border-box; 
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px; 
+	width: 90%; 
+}
+
+form button { 
+	box-sizing: border-box; 
+	width: 9.9%; 
+	background: rgb(130, 224, 255); 
+	border: none; 
+	padding: 10px; 
+}
+
+
+#hud{
+	display: none;
+	width: 100%;
+	bottom: 7%; 
+	position: fixed; 
+    height: 200px;
+}
+#chat{
+
+	width: 100%;
+	bottom: 7%; 
+	position: fixed; 
+	overflow:hidden;
+    overflow-y: scroll;
+    height: 200px;
+}
+#chatLog { 
+	display: inline-block;
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width:80%;
+}
+#playersLog { 
+	display: inline-block;
+	float: right;
+	background: rgb(130, 224, 255);
+	height: 200px;
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width:20%;
+}
+#chatLog li { 
+	padding: 5px 10px; 
+}
+#chatLog li:nth-child(odd) {
+	background: #eee; 
+}
+
+#chatInput{
+	display:none;
+	
+}
+canvas {
+	padding: 0;
+    margin: auto;
+	background: #eee;
+	display: none;
+
+ }
+
+
+

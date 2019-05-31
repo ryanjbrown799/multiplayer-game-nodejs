@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type='text/javascript' src="/socket.io/socket.io.js"></script>
+	<script type='text/javascript' src="/public/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="/public/styles.css" />
+<body>
+	<div id="newUser">
+		<input type="text" id="userName" value="" />
+		<button type="button" id="conButton">Connect</button>
+	</div>
+	<br>
+	<canvas id="gameCanvas" width="480" height="320"></canvas>
+	<div id="displayCharas">
+		<table style="width:100%">
+		<tr>
+			<th id="c1">chara1</th>
+			<th id="c2">chara2</th> 
+			<th id="c3">chara3</th>
+		</tr>
+		</table>
+	</div>
+	
+	<div id="hud">
+		<div id = "chat">
+			<table id="chatLog"></table>	
+		</div>
+			<table id ="playersLog"><td>PLAYERS</td><tr></tr></table>
+		
+		<div id = "chatInput">
+			<form action="">
+				<input id="m" autocomplete="off" /><button>Send</button>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
