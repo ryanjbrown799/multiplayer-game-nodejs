@@ -1,5 +1,5 @@
 #displayCharas {
-	display: none;
+    display: none;
 	text-align: center;
 }
 #newUser{
@@ -14,6 +14,9 @@
 #newUser button {
 	padding:10px;
 	
+}
+body{
+	background-color: black;
 }
 
 #displayCharas th {
@@ -33,7 +36,7 @@
 form {
 
 	box-sizing: border-box;
-	background: #000;
+	background: #C81719;
 	padding: 0px;
 	position: fixed;
 	bottom: 0;
@@ -51,7 +54,7 @@ form input {
 form button { 
 	box-sizing: border-box; 
 	width: 9.9%; 
-	background: rgb(130, 224, 255); 
+	background: #C81719; 
 	border: none; 
 	padding: 10px; 
 }
@@ -71,6 +74,7 @@ form button {
 	position: fixed; 
 	overflow:hidden;
     overflow-y: scroll;
+
     height: 200px;
 }
 #chatLog { 
@@ -83,7 +87,7 @@ form button {
 #playersLog { 
 	display: inline-block;
 	float: right;
-	background: rgb(130, 224, 255);
+	background: #C81719;
 	height: 200px;
 	list-style-type: none; 
 	margin: 0; 
@@ -91,22 +95,21 @@ form button {
 	width:20%;
 }
 #chatLog li { 
+	background: white;
 	padding: 5px 10px; 
 }
-#chatLog li:nth-child(odd) {
-	background: #eee; 
-}
+
 
 #chatInput{
 	display:none;
-	
 }
 canvas {
 	padding: 0;
     margin: auto;
 	background: #eee;
 	display: none;
-}
+
+ }
 
 
 
