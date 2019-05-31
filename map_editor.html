@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<html>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type='text/javascript' src="editor.js"></script>
+		<link rel="stylesheet" type="text/css" href="editorStyles.css" />
+	<body>
+		<div style="text-align: center;">
+			<input type="text" name="wrldWidth" value="640">
+			<input type="text" name="wrldHeight" value="480">
+			<button id="changeSize">change</button>
+		</div >
+		<br>
+		<div style="text-align: center;">
+			<button id="insertWall">walls</button>
+			<button id="insertSpawn">spawn point</button>
+			<button type="button" id="genButton">Generate</button>
+		</div>
+		
+		<br>
+	
+		<div style=" margin: 0 auto; width: 640px; height:480px; overflow:scroll; ">
+	
+			<canvas id="mapCanvas" width="640" height="480"></canvas>	
+		</div>
+	</body>
+</html>
